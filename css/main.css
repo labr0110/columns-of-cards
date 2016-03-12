@@ -1,0 +1,78 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 1rem;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+div {
+  background-color: #e2e2e2;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 25%;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+  text-align: left;
+}
+
+h3 {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-style: italic;
+  text-align: left;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  margin: 0;
+  text-align: left;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+.btn {
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  float: left;
+  font-size: 1.25rem;
+  padding: 0.75em;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
