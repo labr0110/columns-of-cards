@@ -57,3 +57,29 @@ p {
   background-color: #000;
   border-color: #000;
 }
+h1 {
+  text-align: center;
+  color: black;
+}
+
+div {
+  padding: .5em .5em .3em .5em;
+  width: 100%;
+  border-left: .5px solid #333;
+}
+
+.card1 {
+  background-color: #e2e2e2;
+}
+
+.card2 {
+  background-color: #ccc;
+}
+
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
+}
